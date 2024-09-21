@@ -17,7 +17,7 @@ passport.use(
     {
       clientID: process.env.GITHUB_CLIENT_ID,
       clientSecret: process.env.GITHUB_CLIENT_SECRET,
-      callbackURL: "http://localhost:3000/auth/github/callback",
+      callbackURL: "https://byte-task-mads.onrender.com/auth/github/callback",
     },
     (accessToken, refreshToken, profile, done) => {
       profile.accessToken = accessToken;
@@ -32,7 +32,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "http://localhost:3000/auth/google/callback",
+      callbackURL: "https://byte-task-mads.onrender.com/auth/google/callback",
       scope: ["https://www.googleapis.com/auth/youtube.readonly", "profile"],
     },
     (accessToken, refreshToken, profile, done) => {
