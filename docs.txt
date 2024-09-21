@@ -1,0 +1,6 @@
+Important Links:
+
+- https://docs.github.com/en/rest/users/followers?apiVersion=2022-11-28#check-if-a-user-follows-another-user
+- https://developers.google.com/youtube/v3/docs
+- https://developers.google.com/youtube/v3/docs/subscriptions/list
+- https://www.passportjs.org/packages/passport-github/
